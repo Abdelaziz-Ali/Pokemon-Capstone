@@ -26,14 +26,13 @@ header {
 .nav-bar {
   display: flex;
   justify-content: flex-start;
-  margin-left: 30%;
+  margin-left: 10%;
 }
 
 .navbar-list {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 30%;
   gap: 1.5em;
 }
 

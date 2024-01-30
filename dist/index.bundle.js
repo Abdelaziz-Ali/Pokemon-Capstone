@@ -321,7 +321,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* Normalize */\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  scroll-behavior: smooth;\r\n  list-style-type: none;\r\n  font-family: 'Kanit', sans-serif;\r\n}\r\n\r\n/* Header - NavBar */\r\nbody {\r\n  background-color: #263238;\r\n}\r\n\r\n.title {\r\n  color: yellow;\r\n  font-size: 4em;\r\n  text-align: center;\r\n}\r\n\r\nheader {\r\n  background-color: #ef5350;\r\n}\r\n\r\n.nav-bar {\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  margin-left: 30%;\r\n}\r\n\r\n.navbar-list {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  align-items: center;\r\n  width: 30%;\r\n  gap: 1.5em;\r\n}\r\n\r\n.navbar-img {\r\n  height: 5em;\r\n  padding-top: 0.5em;\r\n}\r\n\r\n.navbar-item a {\r\n  text-decoration: none;\r\n  color: yellow;\r\n}\r\n\r\n/* Cards Section */\r\n.cards-container {\r\n  display: flex;\r\n  justify-content: center;\r\n  flex-wrap: wrap;\r\n  align-items: center;\r\n  margin-top: 2em;\r\n  gap: 10%;\r\n}\r\n\r\n.card {\r\n  width: 17em;\r\n  height: auto;\r\n  margin: 2em;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  padding: 1rem 0.5rem;\r\n  border-radius: 25px;\r\n  background: #ef5350;\r\n  box-shadow: 0 0 0.5em #ff3c00;\r\n}\r\n\r\n.card-content {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.card-img {\r\n  width: 12em;\r\n  height: auto;\r\n  background-color: rgb(255, 255, 255);\r\n  border-radius: 20px;\r\n  margin-bottom: 3%;\r\n}\r\n\r\n.card-header {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  gap: 20px;\r\n}\r\n\r\n.like-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin-bottom: 3%;\r\n}\r\n\r\n.like-btn {\r\n  background: none;\r\n  border: none;\r\n  font-size: 1.7em;\r\n  cursor: pointer;\r\n}\r\n\r\n.like-count {\r\n  font-size: 1.7em;\r\n  text-align: center;\r\n  margin-top: -15px;\r\n}\r\n\r\n.card-content p {\r\n  font-size: 1.5em;\r\n  margin-bottom: 5%;\r\n}\r\n\r\n.button-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n}\r\n\r\n.button-container button {\r\n  width: 120%;\r\n  margin-bottom: 5%;\r\n  padding: 3%;\r\n  font-size: 1.2em;\r\n  cursor: pointer;\r\n}\r\n\r\n/* Comments Popup */\r\n.no-scroll {\r\n  overflow: hidden;\r\n  position: sticky;\r\n}\r\n\r\n#closeDialoge {\r\n  color: #000;\r\n  background-color: transparent;\r\n  height: 40px;\r\n  width: 40px;\r\n  align-self: flex-end;\r\n  border: none;\r\n  cursor: pointer;\r\n}\r\n\r\n.dialog-container {\r\n  position: fixed;\r\n  border-color: transparent;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  background-color: #ef5350;\r\n  width: 60vw;\r\n  border-radius: 2%;\r\n  margin: auto;\r\n  padding: 2%;\r\n  gap: 2%;\r\n  box-sizing: initial;\r\n}\r\n\r\n.dialog-container::backdrop {\r\n  background-color: #263238;\r\n}\r\n\r\n.specs {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  align-items: center;\r\n  width: 80%;\r\n}\r\n\r\n.modal-card-img {\r\n  width: 20%;\r\n  height: auto;\r\n  background-color: rgb(255, 255, 255);\r\n  border-radius: 20px;\r\n}\r\n\r\n.comments-list {\r\n  height: 200px;\r\n}\r\n\r\n.comments-form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: flex-start;\r\n  gap: 20px;\r\n}\r\n\r\n.comments-title {\r\n  align-self: center;\r\n}\r\n\r\nlabel {\r\n  display: none;\r\n}\r\n\r\ninput,\r\ntextarea {\r\n  padding: 10px;\r\n}\r\n\r\n.comments-form textarea {\r\n  width: 100%;\r\n}\r\n\r\n.comments-btn {\r\n  padding: 5px;\r\n}\r\n\r\n/* Reservations Modal */\r\n\r\n.reservation-header {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  gap: 20px;\r\n}\r\n\r\n.reservations-details {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 20px;\r\n  justify-content: space-evenly;\r\n  align-items: center;\r\n  width: 80%;\r\n}\r\n\r\n.reservations-list {\r\n  height: auto;\r\n}\r\n\r\n.reservation-form {\r\n  width: 80%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n}\r\n\r\n.reservation-form input {\r\n  width: 60%;\r\n  padding: 1%;\r\n  margin-bottom: 10px;\r\n}\r\n\r\n.reservation-form button {\r\n  width: 50%;\r\n  font-size: 1.3em;\r\n  cursor: pointer;\r\n  padding: 2%;\r\n  margin-top: 5%;\r\n  border-radius: 15px;\r\n}\r\n\r\n.reservation-form button:hover {\r\n  color: white;\r\n  background-color: black;\r\n  border: 2px solid white;\r\n}\r\n\r\n/* Footer */\r\nfooter {\r\n  background-color: #ef5350;\r\n  padding: 1em;\r\n}\r\n\r\nfooter h2 {\r\n  font-size: 1em;\r\n}\r\n\r\n.footer-link {\r\n  text-decoration: none;\r\n  color: yellow;\r\n}\r\n\r\n/* QueryMedia */\r\n@media (min-width: 768px) {\r\n  /* NavBar */\r\n  .nav-bar {\r\n    margin-left: 7%;\r\n    font-size: 1.25em;\r\n  }\r\n\r\n  /* Comments Popup */\r\n  .comments-form {\r\n    width: 65%;\r\n  }\r\n\r\n  .comments-form textarea {\r\n    width: 50%;\r\n  }\r\n\r\n  /* Footer */\r\n  footer h2 {\r\n    font-size: 1.5em;\r\n  }\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* Normalize */\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  scroll-behavior: smooth;\r\n  list-style-type: none;\r\n  font-family: 'Kanit', sans-serif;\r\n}\r\n\r\n/* Header - NavBar */\r\nbody {\r\n  background-color: #263238;\r\n}\r\n\r\n.title {\r\n  color: yellow;\r\n  font-size: 4em;\r\n  text-align: center;\r\n}\r\n\r\nheader {\r\n  background-color: #ef5350;\r\n}\r\n\r\n.nav-bar {\r\n  display: flex;\r\n  justify-content: flex-start;\r\n  margin-left: 10%;\r\n}\r\n\r\n.navbar-list {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  align-items: center;\r\n  gap: 1.5em;\r\n}\r\n\r\n.navbar-img {\r\n  height: 5em;\r\n  padding-top: 0.5em;\r\n}\r\n\r\n.navbar-item a {\r\n  text-decoration: none;\r\n  color: yellow;\r\n}\r\n\r\n/* Cards Section */\r\n.cards-container {\r\n  display: flex;\r\n  justify-content: center;\r\n  flex-wrap: wrap;\r\n  align-items: center;\r\n  margin-top: 2em;\r\n  gap: 10%;\r\n}\r\n\r\n.card {\r\n  width: 17em;\r\n  height: auto;\r\n  margin: 2em;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  padding: 1rem 0.5rem;\r\n  border-radius: 25px;\r\n  background: #ef5350;\r\n  box-shadow: 0 0 0.5em #ff3c00;\r\n}\r\n\r\n.card-content {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.card-img {\r\n  width: 12em;\r\n  height: auto;\r\n  background-color: rgb(255, 255, 255);\r\n  border-radius: 20px;\r\n  margin-bottom: 3%;\r\n}\r\n\r\n.card-header {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  gap: 20px;\r\n}\r\n\r\n.like-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin-bottom: 3%;\r\n}\r\n\r\n.like-btn {\r\n  background: none;\r\n  border: none;\r\n  font-size: 1.7em;\r\n  cursor: pointer;\r\n}\r\n\r\n.like-count {\r\n  font-size: 1.7em;\r\n  text-align: center;\r\n  margin-top: -15px;\r\n}\r\n\r\n.card-content p {\r\n  font-size: 1.5em;\r\n  margin-bottom: 5%;\r\n}\r\n\r\n.button-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n}\r\n\r\n.button-container button {\r\n  width: 120%;\r\n  margin-bottom: 5%;\r\n  padding: 3%;\r\n  font-size: 1.2em;\r\n  cursor: pointer;\r\n}\r\n\r\n/* Comments Popup */\r\n.no-scroll {\r\n  overflow: hidden;\r\n  position: sticky;\r\n}\r\n\r\n#closeDialoge {\r\n  color: #000;\r\n  background-color: transparent;\r\n  height: 40px;\r\n  width: 40px;\r\n  align-self: flex-end;\r\n  border: none;\r\n  cursor: pointer;\r\n}\r\n\r\n.dialog-container {\r\n  position: fixed;\r\n  border-color: transparent;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  background-color: #ef5350;\r\n  width: 60vw;\r\n  border-radius: 2%;\r\n  margin: auto;\r\n  padding: 2%;\r\n  gap: 2%;\r\n  box-sizing: initial;\r\n}\r\n\r\n.dialog-container::backdrop {\r\n  background-color: #263238;\r\n}\r\n\r\n.specs {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  align-items: center;\r\n  width: 80%;\r\n}\r\n\r\n.modal-card-img {\r\n  width: 20%;\r\n  height: auto;\r\n  background-color: rgb(255, 255, 255);\r\n  border-radius: 20px;\r\n}\r\n\r\n.comments-list {\r\n  height: calc(250px);\r\n}\r\n\r\n.comments-form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: flex-start;\r\n  gap: 20px;\r\n}\r\n\r\n.comments-title {\r\n  align-self: center;\r\n}\r\n\r\nlabel {\r\n  display: none;\r\n}\r\n\r\ninput,\r\ntextarea {\r\n  padding: 10px;\r\n}\r\n\r\n.comments-form textarea {\r\n  width: 100%;\r\n}\r\n\r\n.comments-btn {\r\n  padding: 5px;\r\n}\r\n\r\n/* Reservations Modal */\r\n\r\n.reservation-header {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  gap: 20px;\r\n}\r\n\r\n.reservations-details {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 20px;\r\n  justify-content: space-evenly;\r\n  align-items: center;\r\n  width: 80%;\r\n}\r\n\r\n.reservations-list {\r\n  height: auto;\r\n}\r\n\r\n.reservation-form {\r\n  width: 80%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n}\r\n\r\n.reservation-form input {\r\n  width: 60%;\r\n  padding: 1%;\r\n  margin-bottom: 10px;\r\n}\r\n\r\n.reservation-form button {\r\n  width: 50%;\r\n  font-size: 1.3em;\r\n  cursor: pointer;\r\n  padding: 2%;\r\n  margin-top: 5%;\r\n  border-radius: 15px;\r\n}\r\n\r\n.reservation-form button:hover {\r\n  color: white;\r\n  background-color: black;\r\n  border: 2px solid white;\r\n}\r\n\r\n/* Footer */\r\nfooter {\r\n  background-color: #ef5350;\r\n  padding: 1em;\r\n}\r\n\r\nfooter h2 {\r\n  font-size: 1em;\r\n}\r\n\r\n.footer-link {\r\n  text-decoration: none;\r\n  color: yellow;\r\n}\r\n\r\n/* QueryMedia */\r\n@media (min-width: 768px) {\r\n  /* NavBar */\r\n  .nav-bar {\r\n    margin-left: 7%;\r\n    font-size: 1.25em;\r\n  }\r\n\r\n  /* Comments Popup */\r\n  .comments-form {\r\n    width: 65%;\r\n  }\r\n\r\n  .comments-form textarea {\r\n    width: 50%;\r\n  }\r\n\r\n  /* Footer */\r\n  footer h2 {\r\n    font-size: 1.5em;\r\n  }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -468,6 +468,7 @@ const fetchPokemons = async () => {
       const card = document.createElement('div');
       card.classList = 'card';
       card.id = `${data.id}`;
+      /* Creating Cards and Modals */
       card.innerHTML = ` <img src="${data.sprites.front_default}" alt="${data.name}" class="card-img">
                          <div class="card-header">
                            <h2>${data.name.toUpperCase()}</h2>
@@ -480,7 +481,10 @@ const fetchPokemons = async () => {
                            <button  data-modal-target="#popup${data.id}" class="comment-btn" id="${data.id}">Comments</button>
                            <button data-modal-target="#modal${data.id}" class="reservation-btn" id='${data.id}'>Reservations</button>
                          </div>
-                         <dialog id='popup${data.id}' class=''>
+
+                         <!-- Comment PopUp -->
+
+                         <dialog id='popup${data.id}'>
                           <button data-close-button id='closeDialoge' class='absolute btn-noBg' type='button' title='closing button'>
                             <svg xmlns='http://www.w3.org/2000/svg' width='36' height='36' fill='black' class='bi bi-x' viewBox='0 0 16 16'>
                               <path d='M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z'/>
@@ -492,7 +496,7 @@ const fetchPokemons = async () => {
                           </div>
                           <div class="reservations-details">
                             <div class="specs">
-                              <div class=>
+                              <div>
                                 <p>Weight: ${data.weight}</p>
                                 <p>Height: ${data.height}</p>
                               </div>
@@ -501,11 +505,11 @@ const fetchPokemons = async () => {
                                 <p>Order: ${data.order}</p>
                               </div>
                             </div>
-                            <h3 class="comment-title">Comments</h3>
+                            <h3 class="comment-title">Comments (0)</h3>
                             <div class="comments-list" id="comments-list">
                             </div>
                           </div>
-                          <form class="comments-form" action="">
+                          <form class="comments-form">
                             <h3 class="comments-title">Add a comment</h3>
                             <label for="name"></label>
                             <input type="text" id="name" placeholder="Your name">
@@ -514,8 +518,11 @@ const fetchPokemons = async () => {
                             <button type="button" id="item${data.id}" class="comments-btn">Comment</button>
                           </form>
                         </dialog>
-                         <dialog id='modal${data.id}' class='reservation-modal'>
-                          <button data-close-button id='closeDialoge' class='absolute btn-noBg' type='button' title='closing button'>
+
+                        <!-- Reservation PopUp -->
+
+                        <dialog id="modal${data.id}" class="reservation-modal">
+                          <button data-close-button id="closeDialoge" class="absolute btn-noBg" type="button" title="closing button">
                            <i class="fa-solid fa-xmark fa-2xl"></i>
                           </button>
                           <img src="${data.sprites.front_default}" alt="${data.name}" class="modal-card-img">
@@ -537,12 +544,12 @@ const fetchPokemons = async () => {
                             <div class="reservations-list" id="reservations-list">
                             </div>
                             <h2 class="add-reservation" id="add-reservation">Add a Reservation</h2>
-                            <form class="reservation-form" id="reservation-form-${data.id}" action="" name="Add a Reservation">
+                            <form class="reservation-form" id="reservation-form-${data.id}" name="Add a Reservation">
                               <label for="name">Your Name</label>
                               <input type="text" id="name" class="name" placeholder="Your name">
-                              <label for="start_date">Start Date</label>
+                              <h3>Start Date<h3>
                               <input type="date" id="start_date" class="start_date" placeholder="Start Date">
-                              <label for="end_date">End Date</label>
+                              <h3>End Date</h3>
                               <input type="date" id="end_date" class="end_date" placeholder="End Date">
                               <button type="submit" id="add-reservation-${data.id}" class="add-reservation">Reserve</button>
                             </form>
@@ -553,16 +560,28 @@ const fetchPokemons = async () => {
     });
     /* Waiting for the promises to fullfill */
     await Promise.all(promises);
+
     /* Executing Functions */
+    /* Likes Functions */
     (0,_numbOfLikes_js__WEBPACK_IMPORTED_MODULE_0__.getLikes)();
     (0,_numbOfLikes_js__WEBPACK_IMPORTED_MODULE_0__.interactionLike)();
+
+    /* PopUp Open and Closing Function */
     (0,_commentsPopup_js__WEBPACK_IMPORTED_MODULE_2__["default"])();
     (0,_reservationsModal_js__WEBPACK_IMPORTED_MODULE_3__["default"])();
+
+    /* Comments Popup Functions */
     (0,_displayComments_js__WEBPACK_IMPORTED_MODULE_5__["default"])();
     (0,_commentsForm_js__WEBPACK_IMPORTED_MODULE_7__["default"])();
+
+    /* Pokemon Counter */
     (0,_listCounter_js__WEBPACK_IMPORTED_MODULE_1__["default"])(newArray.length, pokeCount);
+
+    /* Reservation Functions */
     (0,_displayReservations_js__WEBPACK_IMPORTED_MODULE_4__["default"])();
     (0,_addReservations_js__WEBPACK_IMPORTED_MODULE_6__["default"])();
+
+    /* Error Handler */
   } catch (error) {
     const errorMessage = 'Error, try again later.';
     const errorElement = document.createElement('div');
@@ -579,8 +598,8 @@ const fetchPokemons = async () => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "getLikes": () => (/* binding */ getLikes),
-/* harmony export */   "interactionLike": () => (/* binding */ interactionLike)
+/* harmony export */   getLikes: () => (/* binding */ getLikes),
+/* harmony export */   interactionLike: () => (/* binding */ interactionLike)
 /* harmony export */ });
 /* App Api */
 const urlApi = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/tngK8NfXluNWvAs7EHbF/likes';
@@ -655,7 +674,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* Detail Popup Window */
 
-const popGenrato = () => {
+const commentsModal = () => {
   // Open comments popup
   const opnPopBtn = document.querySelectorAll('[data-modal-target]');
   opnPopBtn.forEach((btn) => {
@@ -679,7 +698,7 @@ const popGenrato = () => {
   });
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (popGenrato);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (commentsModal);
 
 
 /***/ }),
@@ -692,7 +711,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* Detailed Reservation Modal */
 
-const ReservationModal = () => {
+const reservationModal = () => {
   // Open reservation modal
   const openModalBtn = document.querySelectorAll('[data-modal-target]');
   openModalBtn.forEach((btn) => {
@@ -722,7 +741,7 @@ const ReservationModal = () => {
   });
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ReservationModal);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (reservationModal);
 
 
 /***/ }),
@@ -740,7 +759,7 @@ __webpack_require__.r(__webpack_exports__);
 const BASE_URL = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/tngK8NfXluNWvAs7EHbF/reservations';
 
 /* Getting reservations list from the Involvement API */
-const DisplayReservations = async () => {
+const displayReservations = async () => {
   const cardContainers = document.querySelectorAll('.card');
   cardContainers.forEach((card) => {
     const reservationsTitle = card.querySelectorAll('.reservation-title');
@@ -750,17 +769,17 @@ const DisplayReservations = async () => {
         try {
           const res = await fetch(`${BASE_URL}?item_id=${btn.id}`);
           const data = await res.json();
-          const reservationsCounter = data.length;
+          const reservationCounter = data.length;
           const div = card.querySelector('.reservations-list');
           div.innerHTML = '';
           data.forEach((reservation) => {
             const li = document.createElement('li');
-            li.innerHTML = `${reservation.date_start} - ${reservation.date_end} by ${reservation.username}`;
+            li.innerHTML = `From: ${reservation.date_start} / To: ${reservation.date_end} by ${reservation.username}`;
             div.appendChild(li);
           });
           reservationsTitle.forEach((title) => {
-            if (reservationsCounter > 0) {
-              (0,_reservationsCounter_js__WEBPACK_IMPORTED_MODULE_0__["default"])(reservationsCounter, title);
+            if (reservationCounter > 0) {
+              (0,_reservationsCounter_js__WEBPACK_IMPORTED_MODULE_0__["default"])(reservationCounter, title);
             }
           });
           return true;
@@ -773,7 +792,7 @@ const DisplayReservations = async () => {
   });
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DisplayReservations);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (displayReservations);
 
 /***/ }),
 /* 17 */
@@ -784,12 +803,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* Reservations counter */
-const ReservationsCounter = (counter, link) => {
+const reservationsCounter = (counter, link) => {
   link.innerHTML = `Reservations (${counter})`;
   return counter;
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ReservationsCounter);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (reservationsCounter);
 
 /***/ }),
 /* 18 */
@@ -816,7 +835,7 @@ const DisplayComments = async () => {
         try {
           const res = await fetch(`${BASE_URL}?item_id=item${btn.id}`);
           const data = await res.json();
-          const commentsCounter = data.length;
+          const commentCounter = data.length;
           const div = card.querySelector('.comments-list');
           div.innerHTML = '';
           data.forEach((comment) => {
@@ -824,8 +843,8 @@ const DisplayComments = async () => {
             li.innerHTML = `${comment.creation_date} ${comment.username}: ${comment.comment}`;
             div.appendChild(li);
           });
-          if (commentsCounter > 0) {
-            (0,_commentsCounter_js__WEBPACK_IMPORTED_MODULE_0__["default"])(commentsCounter, commentsTitle);
+          if (commentCounter > 0) {
+            (0,_commentsCounter_js__WEBPACK_IMPORTED_MODULE_0__["default"])(commentCounter, commentsTitle);
           } else {
             commentsTitle.innerHTML = 'Comments (0)';
           }
@@ -851,12 +870,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* Comments counter */
-const CommentsCounter = (counter, link) => {
+const commentsCounter = (counter, link) => {
   link.innerHTML = `Comments (${counter})`;
   return counter;
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CommentsCounter);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (commentsCounter);
 
 
 /***/ }),
@@ -874,15 +893,18 @@ __webpack_require__.r(__webpack_exports__);
 const BASE_URL = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/tngK8NfXluNWvAs7EHbF/reservations';
 
 /* Display new reservations list using the Involvement API */
-const AddReservations = async () => {
+const addReservations = async () => {
+  /* Selecting the cards */
   const cardContainers = document.querySelectorAll('.card');
   cardContainers.forEach((card) => {
+    /* Selecting cards components (btns - title) */
     const openModalBtn = card.querySelectorAll('.add-reservation');
     const reservationsTitle = card.querySelectorAll('.reservation-title');
     openModalBtn.forEach((btn) => {
       btn.addEventListener('click', async (event) => {
         event.preventDefault();
         const reservationForm = card.querySelectorAll('.reservation-form');
+        /* Getting the values from the form */
         reservationForm.forEach(async (form) => {
           const data = {
             item_id: `${card.id}`,
@@ -897,23 +919,24 @@ const AddReservations = async () => {
             redirect: 'follow',
           };
           await fetch(BASE_URL, requestOptions);
+          /* Reset the form */
           form.querySelector('#name').value = '';
           form.querySelector('#start_date').value = '';
           form.querySelector('#end_date').value = '';
           /* Reload Reservations */
           const res = await fetch(`${BASE_URL}?item_id=${card.id}`);
           const reservations = await res.json();
-          const reservationsCounter = reservations.length;
+          const reservationCounter = reservations.length;
           const div = card.querySelector('.reservations-list');
           div.innerHTML = '';
           reservations.forEach((reservation) => {
             const li = document.createElement('li');
-            li.innerHTML = `${reservation.date_start} - ${reservation.date_end} by ${reservation.username}`;
+            li.innerHTML = `From: ${reservation.date_start} / To: ${reservation.date_end} by ${reservation.username}`;
             div.appendChild(li);
           });
           reservationsTitle.forEach((title) => {
-            if (reservationsCounter > 0) {
-              (0,_reservationsCounter_js__WEBPACK_IMPORTED_MODULE_0__["default"])(reservationsCounter, title);
+            if (reservationCounter > 0) {
+              (0,_reservationsCounter_js__WEBPACK_IMPORTED_MODULE_0__["default"])(reservationCounter, title);
             }
           });
         });
@@ -922,7 +945,7 @@ const AddReservations = async () => {
   });
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AddReservations);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addReservations);
 
 /***/ }),
 /* 21 */
@@ -930,12 +953,16 @@ const AddReservations = async () => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "broadcast": () => (/* binding */ broadcast),
+/* harmony export */   broadcast: () => (/* binding */ broadcast),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _commentsCounter_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
+
+
+/* API */
 const BASE_URL = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/tngK8NfXluNWvAs7EHbF/comments';
 
-// send new score to API
+/* Sending data to the API */
 const broadcast = async (raw) => {
   const myHeaders = new Headers();
   myHeaders.append('Content-Type', 'application/json');
@@ -951,28 +978,37 @@ const broadcast = async (raw) => {
 
 /* Getting comments from the form and prepair it to be handeled by the API */
 const postComments = async () => {
+  /* Selecting the cards */
   const cardContainers = document.querySelectorAll('.card');
   cardContainers.forEach((card) => {
+    /* Selecting cards components (btns - title) */
     const openModalBtn = card.querySelectorAll('.comments-btn');
+    const commentTitle = card.querySelectorAll('.comment-title');
     openModalBtn.forEach((btn) => {
       btn.addEventListener('click', async () => {
+        /* Getting the values from the form */
         const raw = JSON.stringify({
           item_id: `${btn.id}`,
           username: card.querySelector('input').value,
           comment: card.querySelector('textarea').value,
         });
+        /* Reset Form */
         card.querySelector('input').value = '';
         card.querySelector('textarea').value = '';
         await broadcast(raw);
         /* Reload comments */
         const res = await fetch(`${BASE_URL}?item_id=${btn.id}`);
         const data = await res.json();
+        const commentCounter = data.length;
         const div = card.querySelector('.comments-list');
         div.innerHTML = '';
         data.forEach((comm) => {
           const li = document.createElement('li');
           li.innerHTML = `${comm.comment} - ${comm.creation_date} by ${comm.username}`;
           div.appendChild(li);
+        });
+        commentTitle.forEach((title) => {
+          (0,_commentsCounter_js__WEBPACK_IMPORTED_MODULE_0__["default"])(commentCounter, title);
         });
       });
     });
