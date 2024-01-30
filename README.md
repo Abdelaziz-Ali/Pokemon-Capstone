@@ -84,8 +84,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Hosted on Gethub](https://hernandanielzamora.github.io/Javascript-Capstone/dist/)
-- [Hosted on Netlify](https://javascript-capstone.netlify.app/)
+- [Hosted on Gethub](https://abdelaziz-mahdi.github.io/Pokemon-Capstone/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +92,7 @@
 
 ## :movie_camera: Project Presentation <a name="project-presentation"></a>
 
-Walking through the pokedex project.
+Walking through the Pokedex project.
 
 - [Project Presentation Link](https://www.loom.com/share/17f6ddd2df894a2dbab28889001c9ac1)
 
@@ -103,11 +102,11 @@ Walking through the pokedex project.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+If you want to get a local copy up and running, please follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+To run this project you need:
 
 - Install Node.js.
 - Visual Studio Code or equivalent. 
@@ -165,8 +164,8 @@ You can deploy this project using:
 
 👤 Abdelaziz Ali
 
-- GitHub: [@Abdelaziz-Ali](https://github.com/Abdelaziz-Ali)
-- Twitter: [@AbdelazizDV](https://twitter.com/AbdelazizDV)
+- GitHub: [@Abdelaziz-Mahdi](https://github.com/Abdelaziz-Mahdi)
+- Twitter: [@AbdelazizDV](https://twitter.com/_AbdelazizMahdi)
 - LinkedIn: [in/abdelaziz-mahdi](https://www.linkedin.com/in/abdelaziz-mahdi)
 
 👤 Nabeel Ahmed
